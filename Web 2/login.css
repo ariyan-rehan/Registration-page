@@ -1,0 +1,31 @@
+body{
+    background-image: url(images/lamembershpbanner.jpg);
+    background-size: cover;
+}
+.form{
+    width: 600px;
+    background: rgba(0, 0, 0, .4);
+    margin: 220px auto;
+    padding: 20px;
+}
+.form input{
+    display: block;
+    width: 100%;
+    border-radius: 5px;
+    border: 1px solid yellow;
+    background: transparent;
+    color: white;
+    padding: 5px 5px;
+}
+.form label{
+    color: #fff;
+    padding: 5px 0;
+    display: block;
+    font-size: 20px;
+    font-family: cursive;
+    cursor: pointer;
+}
+.form input[type=submit]{
+    margin-top: 10px;
+    width: 200px;
+}
